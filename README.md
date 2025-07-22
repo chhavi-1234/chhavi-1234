@@ -1,73 +1,74 @@
-# Hi, I'm Chhavi 
+#  Multilevel Movie Genre Detection from Movie Screenshots
 
-## BCA Graduate | AI & ML Enthusiast |  Building Projects in Web & AI/ML |  Eager Learner
+This project is an AI/ML-based system that automatically detects and classifies **multiple movie genres** by analyzing **movie screenshots** using deep learning techniques.
 
+## Project Overview
 
-##  About Me
+Traditional genre classification relies heavily on textual metadata like title or description. This system introduces a **visual-based classification** approach using **Convolutional Neural Networks (CNNs)** to detect genres directly from movie frames or posters.
 
--  Final year BCA student from Dr. Virendra Swarup Institute of Computer Studies  
--  Currently working on web development and machine learning mini-projects  
--  Always learning: Front-End Design, GitHub, AI Concepts  
--  Passionate about solving real-world problems through code  
--  Reach me at: [LinkedIn]https://www.linkedin.com/in/chhavi-gupta-637041353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app | chhavikaushal2@gmail.com
-
-
-##  Tech Stack
-
-- *Languages*: Java, Python, C, C++, HTML, CSS, JavaScript  
-- *Tools*: Git, GitHub, VS Code, Canva, MySQL  
-- *Other Skills*: Data Structures, DBMS, OOPs, Software Engineering
+###  Key Features:
+- Multi-label classification (each movie can belong to multiple genres)
+- Trained on a dataset of movie screenshots and genre labels
+- Image preprocessing and data augmentation
+- Model built using TensorFlow/Keras
+- Performance evaluated using precision, recall, and F1 score
 
 
+##  Technologies Used
 
-## Projects
-
-###  [Weather Data Analysis & Prediction using AI/ML](#)
-- Collected real-time weather data
-- Applied regression models for prediction
-- Visualized results using Python libraries
-
-###  [Portfolio Website](#)
-- Designed using HTML, CSS, JavaScript
-- Fully responsive and hosted online
-
-### [Multilable Movie Genre Detection From Movie Screenshots](#)
-- Developed a model to classify multiple genres from movie screenshots
-- Used Convolutional Neural Networks (CNN) and deep learning techniques
-- Preprocessed images and trained model on labeled dataset
-- Evaluated model performance using precision, recall, and F1-score
+- Python  
+- TensorFlow / Keras  
+- NumPy, Pandas  
+- Matplotlib / Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
+- Google Colab (for training)
 
 
-##  Certifications
+##  How to Run
 
-- Java - VSICS
-- Python for Everybody – Simplilearn  
-- Web Development Bootcamp – Udemy  
-- Workshop on Cyber Security & Ethical Hacking – VSICS
-- AI & ML - VSICS
+### 1. Clone the repository:
+git clone https://github.com/chhavi-1234/MultiLevel-Movie-Genre-Detection.git
+
+### 2. Install dependencies:
+pip install -r requirements.txt
+
+### 3. Run the notebook:
+Open notebooks/main.ipynb in Jupyter or Colab
+
+### 4. Upload images and get predictions of movie genres 
 
 
-##  Achievements
+## Sample Screenshot
 
--  “Best Project Presentation” Award for AI-based System  
--  Workshop completion in Cyber Security and Ethical Hacking
+![Sample Output](screenshots/sample_output.png)
 
 
 
-##  GitHub Stats
+## Evaluation Metrics
 
-![Chhavi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username-here&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username-here&layout=compact&theme=radical)
-
-
-##  Let's Connect
-
--  Email: chhavikaushal2@gmail.com  
--  LinkedIn: https://www.linkedin.com/in/chhavi-gupta-637041353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+- Accuracy  
+- Precision / Recall  
+- F1 Score  
+- Loss Curves
 
 
-“Code is like humor. When you have to explain it, it’s bad.” – Cory House
+##  Author
+
+**Chhavi**  
+Final Year BCA Student | Java, Python, HTML/CSS | Passionate about AI/ML  
+[LinkedIn] (https://www.linkedin.com/in/chhavi-gupta-637041353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+
+## License
+
+This project is licensed under the MIT License - feel free to use, modify, and share it.
+
+
+
+
+
+
 
 <!--
 **chhavi-1234/chhavi-1234** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
